@@ -1,0 +1,31 @@
+{
+  "name": "terminal_app_web_display",
+  "version": "1.0.0",
+  "description": "terminal_app_web_display",
+  "main": "main.js",
+  "scripts": {
+    "test": "node ./main.js debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derDere/terminal_app_web_display.git"
+  },
+  "keywords": [
+    "terminal",
+    "curses",
+    "web",
+    "webpage"
+  ],
+  "type": "module",
+  "author": "Phillip Deremer",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/derDere/terminal_app_web_display/issues"
+  },
+  "homepage": "https://github.com/derDere/terminal_app_web_display#readme",
+  "dependencies": {
+    "string-width": "^5.1.2",
+    "ws": "^8.12.0",
+    "xterm": "^5.1.0"
+  }
+}
